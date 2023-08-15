@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: black;
+  }
+  h1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    background: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  form {
+    background: #9aacf1;
+    padding: 40px 30px 60px 30px;
+    border-radius: 9px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px  6px black;
+
+  }
+  form h2 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  form label {
+    font-size: 14px;
+    font-weight: 300;
+  }
+  form div input {
+    width: 240px;
+    height: 34px;
+    outline: none;
+    padding: 0px 10px;
+    color: #ef3b3a;
+    margin-bottom: 5px;
+  }
+  form input[type="checkbox"] {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  form span {
+    color: #ef3b3a;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  form button {
+    width: 100%;
+    background: #ef3b3a;
+    padding: 10px 0px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  form .res{
+    width: 100%;
+    background: #ef3b3a;
+    padding: 10px 0px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
